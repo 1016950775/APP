@@ -1,0 +1,1 @@
+<view><vip vue-id="1" bind:__l="__l"></vip><vipb vue-id="2" bind:__l="__l"></vipb></view>

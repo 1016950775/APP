@@ -1,0 +1,80 @@
+
+.zong{
+	margin: 0 auto;
+	width: 720rpx;
+}
+.zong .zuo{
+	float: left;
+	width: 355rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.zong .you{
+	float: left;
+	width: 366rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.clearfixed:after{
+		        content: "clearfixed";
+		        display: block;
+		        clear: both;
+		        height: 0;
+		        overflow: hidden;
+}
+.huiyuan{
+		width: 725rpx;
+		border: 1px solid #fff;
+		background-color: #fff;
+		border-radius: 20rpx;
+		margin: 0 auto;
+}
+.tubiao{
+		float: left;
+		width: 170rpx;
+		border-bottom-right-radius:20rpx;
+		
+		background-color: #F2E1CC;
+}
+.kaitong{
+		float: right;
+		font-size: 26rpx;
+		width: 160rpx;
+		border-radius: 30rpx;
+		background-color: #FED060;
+}
+.zs{
+		width: 725rpx;
+		margin: 0 auto;
+}
+.yanse{
+		color: #F01414;
+}
+.fot{
+		width: 725rpx;
+		margin: 0 auto;
+		border: 1px solid #fff;
+		background-color: #fff;
+		border-radius: 20rpx;
+		margin-top: 20rpx;
+}
+.foot{
+		height: 60rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		margin-top: 10rpx;
+}
+.zhunshi{
+			border: 1px solid #fff;
+			background-color: #fff;
+			border-radius: 20rpx;
+			width: 725rpx;
+			margin: 0 auto;
+}
+

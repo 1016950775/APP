@@ -1,0 +1,157 @@
+
+.logo2{
+	width: 90%;
+	height: 350rpx;
+	margin: 20rpx auto;
+}
+.logo{
+	width: 90%;
+	height: 650rpx;
+	margin: 20rpx auto;
+}
+.logo image{
+	width: 100%;
+	height: 650rpx;
+}
+.logo2 image{
+	width: 100%;
+	height: 350rpx;
+}
+.logo1{
+	width: 90%;
+	height: 470rpx;
+	margin: 20rpx auto;
+	border: 3px #F3F3F3 solid;
+	border-radius: 5px;
+}
+.logo1 .title{
+	width: 80rpx;
+	height: 35rpx;
+	font-size: 22rpx;
+	text-align: center;
+	line-height: 35rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#F4E1CF) , to(#F0CCB2));
+	background: -o-linear-gradient(left, #F4E1CF , #F0CCB2);
+	background: linear-gradient(to right, #F4E1CF , #F0CCB2); /* 标准的语法 */
+	opacity:0.85;
+	margin: 7rpx 0 0 40rpx;
+	border-radius: 5rpx;
+}
+.logo1 .nav{
+	margin: 15rpx 0 15rpx 40rpx;
+	font-size: 30rpx;
+}
+.logo1 .pt{
+	width: 90%;
+	height: 40rpx;
+	font-size: 28rpx;
+	margin-left: 30rpx;
+	line-height: 40rpx;
+}
+.logo1 .pt image{
+	height: 30rpx;
+	width: 28rpx;
+}
+.logo1 .lb{
+	width: 600rpx;
+	margin-left: 30rpx;
+	margin-top: 20rpx;
+}
+.foot{
+	font-size: 28rpx;
+	text-align: center;
+	width: 90%;
+	height: 30rpx;
+	line-height: 30rpx;
+	margin: 40rpx 0;
+	color: #ADADAB;
+}
+.box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 35rpx;
+	margin-bottom: 20rpx;
+}
+.btn{
+	height: 80rpx;
+	width: 60%;
+	margin: 10rpx 0 0 -20rpx;
+	border-bottom-left-radius: 60rpx;
+	border-top-left-radius: 60rpx;
+	color: #FBE0D4;
+	background-color: #332D2D;
+	text-align: center;
+	line-height: 80rpx;
+	font-weight: bold;
+}
+.btn text{
+	font-size: 25rpx;
+	font-style: normal;
+	font-weight: normal;
+}
+.btn .t1{
+	color: #E4C5A9;
+}
+.btn .t1 .t2{
+	font-size: 35rpx;
+	color: #FBE0D4;
+	font-weight: bold;
+}
+.btn2{
+	height: 80rpx;
+	width: 30%;
+	margin: 10rpx 0 0 -3rpx;
+	border-bottom-right-radius: 60rpx;
+	border-top-right-radius: 60rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#FAE8D9) , to(#E4C5A9));
+	background: -o-linear-gradient(left, #FAE8D9 , #E4C5A9);
+	background: linear-gradient(to right, #FAE8D9 , #E4C5A9);
+	text-align: center;
+	line-height: 80rpx;
+	font-weight: bold;
+}
+.lb .scroll-view_H {
+		/* 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
+		white-space: nowrap;
+		width: 100%;
+}
+.lb .scroll-view-item_H {
+		display: inline-block;
+		width: 40%;
+		height: 300rpx;
+		text-align: center;
+		font-size: 36rpx;
+		margin: 2%  1% 2% 1%;
+}
+.lb .scroll-view-item_H view{
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+}
+.lb .scroll-view-item_H view:nth-child(1){
+		width: 100%;
+		text-align: right;
+		padding: 1% 4%;
+}
+.lb .scroll-view-item_H view:nth-child(2){
+		width: 100%;
+		height: 120rpx;
+}
+.lb .scroll-view-item_H view:nth-child(2) image{
+		width: 300rpx;
+		height: 300rpx;
+}
+.lb .scroll-view-item_H view:nth-child(3){
+		width: 100%;
+		height: 50rpx;
+}
+.lb .scroll-view-item_H view:nth-child(4){
+		width: 100%;
+		height: 50rpx;
+}
+

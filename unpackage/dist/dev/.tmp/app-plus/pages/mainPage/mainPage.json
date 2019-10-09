@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "top": "/components/mainPage/top/top",
+    "ee": "/components/mainPage/nav/nav",
+    "banner": "/components/mainPage/banner/laowudei",
+    "cc": "/components/mainPage/vip/vip",
+    "lunbotu": "/components/mainPage/lunbotu/lunbotu",
+    "foot": "/components/mainPage/foot/foot",
+    "dianpu": "/components/mainPage/dianpu/heicide"
+  }
+}

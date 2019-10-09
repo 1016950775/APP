@@ -1,0 +1,203 @@
+
+.image-list.data-v-430d1e35{
+		margin-top: 8rpx;
+		margin-left: 10rpx;
+		width: 60rpx;
+		height: 60rpx;
+		border: 1px solid white;
+		border-radius: 15px;
+		overflow: hidden;
+		float: left;
+}
+.aa.data-v-430d1e35{
+		width: 750rpx;
+		background-color: #F0AD4E;
+		height: 200rpx;
+}
+.fuhao.data-v-430d1e35{
+		float: right;
+		font-size: 20px;
+}
+.fu.data-v-430d1e35{
+		float: right;
+}
+.font.data-v-430d1e35{
+		float: left;
+		margin-left: 40rpx;
+}
+	
+	/* 按钮设置 */
+.btn.data-v-430d1e35{
+		height: 100rpx;
+		font-size: 40rpx;
+		margin-top: -10rpx;
+		border: none !important;
+		/* border: 1px solid #F0AD4E; */
+		/* button:before{border: none;} */
+}
+.title-padding.data-v-430d1e35 {
+	        height: var(--status-bar-height);
+	       width: 100%;
+		   background-color: #F0AD4E;
+}
+.item.data-v-430d1e35{
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+}
+	
+	/* 图标 */
+.tubiao.data-v-430d1e35{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+      	    margin-top: 20px;
+		    width: 100%;
+			background-color: #F0AD4E;
+			-webkit-justify-content: space-around;
+			    -ms-flex-pack: distribute;
+			        justify-content: space-around;
+}
+.tubiao ._li.data-v-430d1e35{
+			width: 110rpx;
+			background-color: #F0AD4E;
+}
+.tubiao ._li ._a.data-v-430d1e35{
+			text-align: center;
+}
+	
+	/* 钱包 */
+.zuo.data-v-430d1e35{
+			 float: left;
+			 margin-left: 20rpx;
+			 margin-top: 20rpx;
+			 font-size: 28rpx;
+}
+.you.data-v-430d1e35{
+			 float: right;
+			 margin-top: 20rpx;
+			 margin-right: 20rpx;
+			 font-size: 24rpx;
+}
+.qianbao.data-v-430d1e35{
+			 margin: 0;
+			 padding: 0;
+			 list-style: none;
+			 margin-top: 70rpx;
+			 display: -webkit-box;
+			 display: -webkit-flex;
+			 display: -ms-flexbox;
+			 display: flex;
+			 width: 100%ss;
+			 -webkit-justify-content: space-around;
+			     -ms-flex-pack: distribute;
+			         justify-content: space-around;
+}
+.qianbao ._li.data-v-430d1e35{
+			  width: 180rpx;
+}
+.qianbao ._li ._a.data-v-430d1e35{
+			  font-size: 28rpx;
+}
+.center.data-v-430d1e35{
+			  text-align: center;
+}
+	
+	/* 底部 */
+._li.data-v-430d1e35{
+		  		list-style: none;
+}
+._a.data-v-430d1e35{
+		  		text-decoration: none;
+}
+.user_bottom.data-v-430d1e35{
+		  		margin: 60rpx 40rpx;
+}
+.uni-padding-wrap.data-v-430d1e35{
+		  		margin: 20rpx 0;
+		  		border-bottom: 1px solid #E1E1E1;
+		  		border-top: 1px solid #E1E1E1;
+		  		height: 220rpx;
+}
+.swiper-item.data-v-430d1e35{
+		  		height: 180rpx;
+		  		margin: 20rpx 0;
+}
+.swiper-item ._img.data-v-430d1e35{
+		  		width: 100%;
+		  		height: 100%;
+		  		border-radius: 12rpx;
+}
+.nav_three_row.data-v-430d1e35{
+				margin-top: 40rpx;
+}
+.nav_three_row ._h1.data-v-430d1e35{
+		  		font-size: 34rpx;
+		  		list-style: none;
+		  		font-weight: bold;
+}
+.nav_three_row ._ul.data-v-430d1e35{
+		  		margin: 20rpx 10rpx;
+		  		display: -webkit-box;
+		  		display: -webkit-flex;
+		  		display: -ms-flexbox;
+		  		display: flex;
+		  		-webkit-box-pack: justify;
+		  		-webkit-justify-content: space-between;
+		  		    -ms-flex-pack: justify;
+		  		        justify-content: space-between;
+		  		-webkit-flex-wrap: wrap;
+		  		    -ms-flex-wrap: wrap;
+		  		        flex-wrap: wrap;
+}
+.nav_three_row ._ul ._li.data-v-430d1e35{
+		  		width: 157rpx;
+		  		text-align: center;
+		  		margin-top: 40rpx;
+}
+.nav_three_row ._ul ._li ._img.data-v-430d1e35{
+		  		width: 66rpx;
+		  		height: 66rpx;
+}
+.nav_icon_texts.data-v-430d1e35{
+		  		width: 157rpx;
+		  		line-height: 1.4;
+		  		white-space: nowrap;
+		  		color: #333;
+		  		font-size: 28rpx;
+		  		text-align: center;
+}
+	
+	/* 未登录显示 */
+.bottom_content.data-v-430d1e35{
+		width: 100%;
+		height: 90%;
+		/* background-color: #F8F8F8; */
+}
+.bottom_content .tipText.data-v-430d1e35{
+		font-size: 40rpx;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 400rpx;
+}
+.bottom_content .btn-row.data-v-430d1e35{
+		width: 200rpx;
+		margin: 50rpx auto;
+		opacity: .5;
+}
+.bottom_content .btn-row > button.data-v-430d1e35{
+		width: 100rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+		font-size: 30rpx;
+		padding: 0;
+		background: #FFC300;
+		border: none;
+		outline: none;
+}
+

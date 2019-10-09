@@ -1,0 +1,101 @@
+
+.content{
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		background: #F8F8F8;
+}
+.content .box{
+		width: 700rpx;
+		height: 90%;
+		background: #FFFFFF;
+		margin: auto;
+		padding: 50rpx 0;
+}
+.bigtitle{
+		font-size: 50rpx;
+		/* font-weight: bold; */
+		margin: 100rpx 0;
+}
+.input-group{
+}
+.action-row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+		margin: 20rpx 0;
+}
+.btn-row{
+		width: 90%;
+		margin: 0 auto;
+		opacity: .5;
+}
+.btn-row > button{
+		background: #FFC300;
+		border: none;
+		outline: none;
+}
+.action-row > navigator {
+        color: #007aff;
+        padding: 0 20rpx;
+}
+.oauth-row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+}
+.oauth-image {
+        width: 100rpx;
+        height: 100rpx;
+        border: 1rpx solid #dddddd;
+        border-radius: 100rpx;
+        margin: 0 40rpx;
+        background-color: #ffffff;
+}
+.oauth-image image {
+        width: 60rpx;
+        height: 60rpx;
+        margin: 20rpx;
+}
+.input-row{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		margin: 20rpx;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+

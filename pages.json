@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/mainPage/mainPage",
+			"style":{
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle":"dark"
+			}
+			
+			
+        }
+		,{
+		    "path" : "pages/order/order",
+		    "style" : {
+				"navigationBarTitleText": "会员",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,{
+		    "path" : "pages/order/order_child/txvip",
+		    "style" : {
+				"navigationBarTitleText": "美团+腾讯视频联合会员"
+			}
+		}
+        ,{
+            "path" : "pages/more/more",
+            "style" : {
+				"navigationBarTitleText": "订单"
+			}
+        },
+		{
+		    "path" : "pages/order/order_child/order_child",
+		    "style" : {
+				"navigationBarTitleText": "开通会员",
+				"navigationBarBackgroundColor":"black",
+				"navigationBarTextStyle":"white"
+			}
+		}
+		,
+		{
+		    "path" : "pages/order/order_child/order_child1",
+		    "style" : {
+				"navigationBarTitleText": "美团会员服务协议"
+			}
+		}
+		,
+		{
+		    "path" : "pages/order/order_child/zhifu",
+		    "style" : {
+				"navigationBarTitleText": "美团会员服务协议"
+			}
+		}
+        ,{
+            "path" : "pages/myself/myself",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+        ,{
+            "path" : "pages/infoList/infoList",
+            "style" : {
+				"navigationBarTitleText": "优选好店"
+			}
+        }
+        ,{
+            "path" : "pages/daohang/daohang",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+		    "path" : "pages/login/login",
+		    "style": {
+		        "navigationBarTitleText": "登录"
+		    }
+		},{
+		    "path" : "pages/reg/reg",
+		    "style": {
+		        "navigationBarTitleText": "注册"
+		    }
+		}
+        
+        
+        ,{
+            "path" : "pages/gouwu/gouwu",
+            "style" : {
+				"navigationBarTitleText": "提交订单",
+				"navigationBarBackgroundColor":"#FED060",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/shopCar/shopCar",
+            "style" : {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor":"#FED060",
+				"navigationBarTextStyle":"white"
+			}
+        }
+    ],
+	"tabBar":{
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+		    "pagePath": "pages/mainPage/mainPage",
+		    "text": "首页",
+		    "iconPath": "static/img/shouye.png",
+		    "selectedIconPath": "static/img/xuanzhong.png"
+		}, {
+		    "pagePath": "pages/order/order",
+		    "text": "会员",
+		    "iconPath": "static/img/huiyuan.png",
+		    "selectedIconPath": "static/img/huiyuanxuanzhong.png"
+		},{
+		    "pagePath": "pages/more/more",
+		    "text": "订单",
+		    "iconPath": "static/img/dingdan.png",
+		    "selectedIconPath": "static/img/dingdanxuanzhong.png"
+		}
+		,  {
+		    "pagePath": "pages/myself/myself",
+		    "text": "我的",
+		    "iconPath": "static/img/wode.png",
+		    "selectedIconPath": "static/img/wodexuanzhong.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

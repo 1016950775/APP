@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "about-food": "/components/mainPage/foot/subFoot/aboutFood",
+    "find-food": "/components/mainPage/foot/subFoot/findFood"
+  },
+  "component": true
+}

@@ -1,0 +1,219 @@
+
+.hahaha.data-v-67960b6a {
+	position: relative;
+	margin-top: 40rpx;
+	height: 700rpx;
+	overflow-y: scroll;	
+	margin-bottom: 190rpx;
+}
+.left_title_a.data-v-67960b6a{
+	width: 150rpx;
+}
+.wrapper .left .left_title.data-v-67960b6a{
+	background-color:  #F8F8F8;
+	text-align: center;
+	font-size: 28rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	width: 150rpx;
+}
+.wrapper .right.data-v-67960b6a{
+	position: absolute;
+	left:170rpx;
+	top: 0;
+}
+.tz.data-v-67960b6a{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 30rpx;
+}
+.tz2.data-v-67960b6a{
+	margin-left: 20rpx;
+}
+.tp1 ._img.data-v-67960b6a{
+	width: 200rpx;
+	height: 160rpx;
+}
+.rm.data-v-67960b6a{
+	font-size: 28rpx;
+	background-color: #F0AD4E;
+	height: 50rpx;
+	line-height: 50rpx;
+	width: 190rpx;
+	text-align: center;
+	border-radius: 10rpx;
+	margin-top: 5rpx;
+}
+.jt.data-v-67960b6a{
+	font-size: 28rpx;
+	font-weight: bold;
+	margin-top: -6rpx;
+}
+.aoe.data-v-67960b6a{
+	font-size: 24rpx;
+	margin-top: 5rpx;
+}
+.ys.data-v-67960b6a{
+	font-size: 24rpx;
+	color: #AAAAAA;
+	margin-top: 5rpx;
+}
+.zk.data-v-67960b6a{
+	font-size: 24rpx;
+	margin-top: 5rpx;
+}
+.jg.data-v-67960b6a{
+	font-size: 28rpx;
+	color: #FB4E44;
+	margin-top: 5rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.active.data-v-67960b6a{
+	background-color: #FFFFFF !important;
+}
+.shangjia.data-v-67960b6a{
+	width: 700rpx;
+	height: 150rpx;
+	border-radius: 75rpx;
+	background-color: #000000;
+	margin: 25rpx;
+	position: fixed;
+	bottom:10rpx;
+	left: 0;
+	opacity: .8;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	overflow: hidden;
+	z-index: 9;
+}
+.shangjia .title_1.data-v-67960b6a{
+	height: 80rpx;
+	color: #FFFFFF;
+	margin: 35rpx;
+	text-align: center;
+	width: 150rpx;
+	font-size: 20rpx;
+	border-right: 3rpx solid #FFFFFF;
+}
+.shangjia .title_2.data-v-67960b6a{
+	height: 150rpx;
+	line-height: 150rpx;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.shangjia .title_2 > image.data-v-67960b6a{
+	height: 150rpx;
+	width: 150rpx;
+}
+.shangjia .title_2 > view.data-v-67960b6a{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.shangjia .title_3.data-v-67960b6a{
+	height: 100%;
+	line-height: 150rpx;
+	color: #FFFFFF;
+	text-align: center;
+	width: 185rpx;
+	font-size: 30rpx;
+	background-color: #F0AD4E;
+	margin: 0;
+	padding: 0;
+}
+.shangjia .title_3 .titleText.data-v-67960b6a{
+	height: 100%;
+	line-height: 150rpx;
+	color: #FFFFFF;
+	text-align: center;
+	width: 185rpx;
+	font-size: 30rpx;
+	background-color: #F0AD4E;
+	margin: 0;
+	padding: 0;
+}
+.jsq.data-v-67960b6a{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.jsq .subjsq.data-v-67960b6a{
+	width: 60rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	background-color: #F0AD4E;
+	color: #FFFFFF;
+	border-radius: 50%;
+	font-size: 40rpx;
+	padding: 0;
+}
+.choose.data-v-67960b6a{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	/* background-color: #000; */
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	z-index: 1;
+}
+.choose .box_box.data-v-67960b6a{
+	width: 750rpx;
+	border-radius: 5rpx;
+	background-color: #ffffff;
+	/* height: 700upx; */
+	padding-bottom: 150rpx;
+	/* overflow-y: scroll; */
+	padding:0 25rpx 180rpx;
+}
+
+
+

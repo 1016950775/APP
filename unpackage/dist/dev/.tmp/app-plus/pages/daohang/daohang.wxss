@@ -1,0 +1,22 @@
+
+.title.data-v-1ac4aabf{
+	font-size: 34rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	line-height: 80rpx;
+	height: 80rpx;
+	margin-top: 30rpx;
+}
+.subTitle.data-v-1ac4aabf{
+	margin: 0 40rpx;
+}
+.active.data-v-1ac4aabf{
+	border-bottom:4rpx solid #F0AD4E;
+	color: black;
+	font-weight: bold;
+}
+.content.data-v-1ac4aabf{
+}
+

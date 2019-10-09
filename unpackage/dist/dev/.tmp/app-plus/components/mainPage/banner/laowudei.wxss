@@ -1,0 +1,39 @@
+
+.three{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+}
+.three view{
+	width: 100px;
+}
+.three view image{
+	width: 100px;
+	height: 85px;
+}
+.three view ._a{
+	text-decoration: none;
+}
+.three view .name{
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+	color: #2C405A;
+	font-size: 12px;
+}
+.three view .qian{
+	color: #fb4e44;
+	font-size: 12px;
+}
+

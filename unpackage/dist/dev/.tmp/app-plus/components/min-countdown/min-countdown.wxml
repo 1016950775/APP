@@ -1,0 +1,1 @@
+<view class="{{['min-countdown data-v-ddf5d73a',countdownClass]}}"><rich-text nodes="{{time}}" class="data-v-ddf5d73a"></rich-text></view>

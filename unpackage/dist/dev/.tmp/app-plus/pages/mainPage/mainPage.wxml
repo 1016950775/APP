@@ -1,0 +1,1 @@
+<view><top vue-id="1" bind:__l="__l"></top><ee vue-id="2" bind:__l="__l"></ee><banner vue-id="3" bind:__l="__l"></banner><cc vue-id="4" bind:__l="__l"></cc><lunbotu vue-id="5" bind:__l="__l"></lunbotu><foot vue-id="6" bind:__l="__l"></foot><dianpu vue-id="7" bind:__l="__l"></dianpu></view>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"meituan","entryPagePath":"pages/mainPage/mainPage.html","page":{"pages/mainPage/mainPage.html":{"window":{"navigationStyle":"custom","enablePullDownRefresh":true,"backgroundTextStyle":"dark","usingComponents":{"top":"/components/mainPage/top/top","ee":"/components/mainPage/nav/nav","banner":"/components/mainPage/banner/laowudei","cc":"/components/mainPage/vip/vip","lunbotu":"/components/mainPage/lunbotu/lunbotu","foot":"/components/mainPage/foot/foot","dianpu":"/components/mainPage/dianpu/heicide"}}},"pages/order/order.html":{"window":{"navigationBarTitleText":"会员","navigationBarBackgroundColor":"#000000","navigationBarTextStyle":"white","usingComponents":{"vip":"/components/cc/vip1","vipb":"/components/cc/vipb"}}},"pages/order/order_child/txvip.html":{"window":{"navigationBarTitleText":"美团+腾讯视频联合会员","usingComponents":{}}},"pages/more/more.html":{"window":{"navigationBarTitleText":"订单","usingComponents":{"uni-card":"/components/uni-card/uni-card","tabs":"/components/wiszx-tabs/tabs","tab-pane":"/components/wiszx-tabs/tabPane"}}},"pages/order/order_child/order_child.html":{"window":{"navigationBarTitleText":"开通会员","navigationBarBackgroundColor":"black","navigationBarTextStyle":"white","usingComponents":{}}},"pages/order/order_child/order_child1.html":{"window":{"navigationBarTitleText":"美团会员服务协议","usingComponents":{}}},"pages/order/order_child/zhifu.html":{"window":{"navigationBarTitleText":"美团会员服务协议","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup","min-countdown":"/components/min-countdown/min-countdown"}}},"pages/myself/myself.html":{"window":{"navigationBarTitleText":"我的","usingComponents":{}}},"pages/infoList/infoList.html":{"window":{"navigationBarTitleText":"优选好店","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/daohang/daohang.html":{"window":{"navigationStyle":"custom","usingComponents":{"find":"/components/subdaohang/find","pj":"/components/subdaohang/pj","hc":"/components/subdaohang/hc","sanjicaidan":"/components/subdaohang/sanjicaidan"}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登录","usingComponents":{"m-input":"/components/m-input"}}},"pages/reg/reg.html":{"window":{"navigationBarTitleText":"注册","usingComponents":{"m-input":"/components/m-input"}}},"pages/gouwu/gouwu.html":{"window":{"navigationBarTitleText":"提交订单","navigationBarBackgroundColor":"#FED060","navigationBarTextStyle":"white","usingComponents":{"submit":"/components/subdaohang/submit"}}},"pages/shopCar/shopCar.html":{"window":{"navigationBarTitleText":"购物车","navigationBarBackgroundColor":"#FED060","navigationBarTextStyle":"white","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#7a7e83","selectedColor":"#0faeff","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/mainPage/mainPage.html","text":"首页","iconPath":"static/img/shouye.png","selectedIconPath":"static/img/xuanzhong.png"},{"pagePath":"pages/order/order.html","text":"会员","iconPath":"static/img/huiyuan.png","selectedIconPath":"static/img/huiyuanxuanzhong.png"},{"pagePath":"pages/more/more.html","text":"订单","iconPath":"static/img/dingdan.png","selectedIconPath":"static/img/dingdanxuanzhong.png"},{"pagePath":"pages/myself/myself.html","text":"我的","iconPath":"static/img/wode.png","selectedIconPath":"static/img/wodexuanzhong.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/mainPage/mainPage","pages/order/order","pages/order/order_child/txvip","pages/more/more","pages/order/order_child/order_child","pages/order/order_child/order_child1","pages/order/order_child/zhifu","pages/myself/myself","pages/infoList/infoList","pages/daohang/daohang","pages/login/login","pages/reg/reg","pages/gouwu/gouwu","pages/shopCar/shopCar"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.3.3","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

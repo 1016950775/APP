@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "会员",
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "vip": "/components/cc/vip1",
+    "vipb": "/components/cc/vipb"
+  }
+}

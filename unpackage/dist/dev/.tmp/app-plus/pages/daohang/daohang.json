@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "find": "/components/subdaohang/find",
+    "pj": "/components/subdaohang/pj",
+    "hc": "/components/subdaohang/hc",
+    "sanjicaidan": "/components/subdaohang/sanjicaidan"
+  }
+}

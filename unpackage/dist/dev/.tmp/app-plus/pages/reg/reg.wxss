@@ -1,0 +1,43 @@
+
+.content{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #F8F8F8;
+}
+.content .box{
+	width: 700rpx;
+	height: 90%;
+	background: #FFFFFF;
+	margin: auto;
+	padding: 50rpx 0;
+}
+.bigtitle{
+	font-size: 50rpx;
+	/* font-weight: bold; */
+	margin: 100rpx 0;
+}
+.input-row{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 20rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.btn-row{
+	width: 90%;
+	margin: 0 auto;
+	opacity: .5;
+}
+.btn-row > button{
+	background: #FFC300;
+	border: none;
+	outline: none;
+}
+

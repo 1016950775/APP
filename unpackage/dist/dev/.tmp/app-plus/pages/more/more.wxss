@@ -1,0 +1,103 @@
+
+.scroll-view_H.data-v-6c717915 {
+		white-space: nowrap;
+		width: 100%;
+}
+.scroll-view-item_H.data-v-6c717915 {
+		display: inline-block;
+		width: 150rpx;
+		height: 160rpx;
+		margin: 2%  1% 2% 1%;
+}
+.scroll-view-item_H view:nth-child(1) image.data-v-6c717915{
+		width: 150rpx;
+		height: 110rpx;
+}
+.scroll-view-item_H view.data-v-6c717915:nth-child(2){
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		white-space: nowrap;
+		font-size: 12px;
+}
+.clear.data-v-6c717915:after{
+  content:"";
+  display: block;
+  clear:both;
+}
+.tou.data-v-6c717915{
+	padding: 10px;
+}
+.tou image.data-v-6c717915{
+	width: 45px;
+	height: 45px;
+	float: left;
+}
+.tou .mingzi.data-v-6c717915{
+	width: 440rpx;
+	float: left;
+	margin-left: 20rpx;
+}
+.tou .mingzi ._a.data-v-6c717915{
+	width: 440rpx;
+}
+.tou .mingzi .xiaobiao.data-v-6c717915{
+	font-size: 10px;
+	line-height: 10px;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	margin-right: 10rpx;
+	border: 1rpx solid #DD524D;
+	background-color: #DD524D;
+	border-radius: 10rpx;
+}
+.tou .wancheng.data-v-6c717915{
+	float: right;
+}
+.tou .title.data-v-6c717915{
+	width: 400rpx;
+	font-size: 14px;
+	display: inline-block;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+	line-height: 30rpx;
+}
+.tou .jiantou.data-v-6c717915{
+	font-size: 16px;
+	float: right;
+}
+.fan.data-v-6c717915{
+	height: 180rpx;
+	overflow-y: scroll;
+}
+.fanname .geshu.data-v-6c717915{
+	float: right;
+}
+.xia.data-v-6c717915{
+	margin: 0 20rpx 20rpx 0;
+	float: right;
+}
+.xia .jiage.data-v-6c717915{
+	float: right;
+}
+.xia .jiage .shuliang.data-v-6c717915{
+	font-size: 10px;
+	color: #8F8F94;
+	margin-right: 10px;
+}
+.xia .jiage .jine.data-v-6c717915{
+	font-size: 14px;
+}
+.xia .anniu.data-v-6c717915{
+	margin-top: 40rpx;
+}
+.xia .anniu button.data-v-6c717915{
+	margin-left: 20rpx;
+	float: right;
+}
+

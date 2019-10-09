@@ -1,0 +1,24 @@
+
+.title.data-v-def08d9c{
+	font-size: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-weight: bold;
+	width: 700rpx;
+	line-height: 80rpx;
+	height: 80rpx;
+	margin-bottom: 20rpx;
+	/* border-bottom: 1upx solid #666666; */
+}
+.subTitle.data-v-def08d9c{
+	margin:0 20rpx;
+}
+.active.data-v-def08d9c{
+	border-bottom:8rpx solid #F0AD4E;
+	color: #F0AD4E;
+}
+.content.data-v-def08d9c{
+}
+

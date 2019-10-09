@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/mainPage/mainPage",
+    "pages/order/order",
+    "pages/order/order_child/txvip",
+    "pages/more/more",
+    "pages/order/order_child/order_child",
+    "pages/order/order_child/order_child1",
+    "pages/order/order_child/zhifu",
+    "pages/myself/myself",
+    "pages/infoList/infoList",
+    "pages/daohang/daohang",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/gouwu/gouwu",
+    "pages/shopCar/shopCar"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/mainPage/mainPage",
+        "text": "首页",
+        "iconPath": "static/img/shouye.png",
+        "selectedIconPath": "static/img/xuanzhong.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "会员",
+        "iconPath": "static/img/huiyuan.png",
+        "selectedIconPath": "static/img/huiyuanxuanzhong.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "订单",
+        "iconPath": "static/img/dingdan.png",
+        "selectedIconPath": "static/img/dingdanxuanzhong.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "static/img/wode.png",
+        "selectedIconPath": "static/img/wodexuanzhong.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "meituan",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}
